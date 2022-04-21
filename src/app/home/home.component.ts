@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
           $("#portfolio").fadeTo(50, 1);
         }, 500);
       });
-    });
+      });
   }
 
   // mens carousel
@@ -43,7 +43,7 @@ export class HomeComponent implements OnInit {
         items: 1
       },
       400: {
-        items: 2
+        items: 3
       },
       740: {
         items: 3
