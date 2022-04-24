@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
+
 const homeRoutes:Routes = [
   {
     path:'',

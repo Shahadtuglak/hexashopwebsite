@@ -9,6 +9,9 @@ import { FooterComponent } from './footer/footer.component';
 // import { ContactComponent } from './contact/contact.component';
 // import { ProductsComponent } from './products/products.component';
 // import { SingleproductsComponent } from './singleproducts/singleproducts.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    NgbModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

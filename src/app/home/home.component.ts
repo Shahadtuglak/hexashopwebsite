@@ -12,7 +12,9 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+
+
+  ngOnInit() {
     $(function () {
       var selectedClass = "";
       $("p").click(function () {
@@ -27,7 +29,10 @@ export class HomeComponent implements OnInit {
         }, 500);
       });
       });
+
   }
+
+
 
   // mens carousel
   customOptions: OwlOptions = {
