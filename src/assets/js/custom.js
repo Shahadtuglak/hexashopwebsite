@@ -72,6 +72,7 @@
   mobileNav();
 
   // Scroll animation init
+  // @ts-ignore
   window.sr = new scrollReveal();
 
   // Menu Dropdown Toggle
@@ -194,4 +195,5 @@
       }
     });
   }
+  // @ts-ignore
 })(window.jQuery);
