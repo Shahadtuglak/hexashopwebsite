@@ -12,8 +12,6 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-
-
   ngOnInit() {
     $(function () {
       var selectedClass = "";
@@ -29,7 +27,6 @@ export class HomeComponent implements OnInit {
         }, 500);
       });
       });
-
   }
 
 
